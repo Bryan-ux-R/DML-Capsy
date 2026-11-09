@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Katalog Produk Karet Industri - PT Duta Mitra Luhur')
-@section('meta_description', 'Katalog lengkap material karet industri: NBR Rubber Sheet, Conveyor Belt EP, Flange Gasket, Silicone Food Grade, Marine Fender, dan Custom Molded Seal.')
+@section('meta_description', 'Katalog resmi produk manufaktur karet PT Duta Mitra Luhur: Rubber Soles (Sol Sepatu), Seals, Plug Rubber, Mudguard, Cover Stir Mobil, dan Custom Molded.')
 
 @section('content')
 <div class="py-12 bg-[#0b0f19]">
@@ -42,7 +42,7 @@
                         <input type="text" 
                                name="q" 
                                value="{{ request('q') }}" 
-                               placeholder="Cari nama produk, material (misal: NBR, EP 200, Silicone)..." 
+                               placeholder="Cari nama produk, material (misal: Sol Sepatu, Seals, Plug, Mudguard)..." 
                                class="w-full bg-slate-950/80 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-red-500 transition-colors">
                         @if(request('q'))
                             <a href="{{ route('catalog.index', request()->except('q')) }}" class="absolute right-3 top-2.5 text-xs text-slate-400 hover:text-white">✕</a>

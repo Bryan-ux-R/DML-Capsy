@@ -42,25 +42,25 @@
                             <span class="text-lg text-red-400">🏢</span>
                             <div>
                                 <strong class="text-white block text-sm">PT DUTA MITRA LUHUR (Duta Rubber)</strong>
-                                <span class="text-slate-400">Kawasan Industri & Pergudangan Terpadu, Blok B-12 No. 88, Jawa Barat - Indonesia</span>
+                                <span class="text-slate-400">Kawasan Industri & Pergudangan Sentra Bitung C7, Jl. Baitussaadah RT 01/03, Kadu, Curug, Tangerang, Banten</span>
                             </div>
                         </div>
 
                         <div class="flex items-start gap-3">
                             <span class="text-lg text-red-400">📞</span>
                             <div>
-                                <strong class="text-white block text-sm">Telepon Kantor & WhatsApp B2B</strong>
-                                <span class="text-slate-400 block">Hunting: (021) 8990-1234 / 8990-1235</span>
-                                <span class="text-emerald-400 font-bold block mt-0.5">Hotline WA: 0895-0182-3280</span>
+                                <strong class="text-white block text-sm">Telepon Kantor & FAX</strong>
+                                <span class="text-slate-400 block">No. Telepon: (021) 2951-4148</span>
+                                <span class="text-slate-400 block">No. FAX: (021) 2951-4149</span>
+                                <span class="text-emerald-400 font-bold block mt-0.5">Hotline WA Sales: 0895-0182-3280</span>
                             </div>
                         </div>
 
                         <div class="flex items-start gap-3">
                             <span class="text-lg text-red-400">✉️</span>
                             <div>
-                                <strong class="text-white block text-sm">Email Resmi Pengadaan (RFQ)</strong>
-                                <span class="text-slate-400 block">sales@dutamitraluhur.co.id</span>
-                                <span class="text-slate-400 block">tender@dutamitraluhur.co.id</span>
+                                <strong class="text-white block text-sm">Email Resmi Perusahaan</strong>
+                                <span class="text-slate-400 block">duta_mitraluhur@yahoo.co.id</span>
                             </div>
                         </div>
 

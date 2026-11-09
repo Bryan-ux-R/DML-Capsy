@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'PT Duta Mitra Luhur - Industrial Rubber Solutions')</title>
-    <meta name="description" content="@yield('meta_description', 'PT Duta Mitra Luhur (Duta Rubber) adalah produsen dan distributor karet industri terpercaya: rubber sheet, gasket flange, conveyor belt, custom seal berstandar SNI & ISO.')">
+    <meta name="description" content="@yield('meta_description', 'PT Duta Mitra Luhur (Duta Rubber) adalah produsen manufaktur produk karet: rubber soles (sol sepatu), seals, plug rubber, mudguard, cover stir mobil, dan custom molded rubber.')">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,14 +34,14 @@
     <!-- TOP ANNOUNCEMENT BAR (Optional B2B Info) -->
     <div class="bg-gradient-to-r from-red-950/60 via-slate-900 to-red-950/60 border-b border-red-500/20 text-xs text-slate-300 py-1.5 px-4 text-center">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
-            <span class="hidden md:inline text-slate-400">Pabrik & Distribusi Karet Industri Terkemuka Indonesia • Garansi Uji Lab Terakreditasi</span>
+            <span class="hidden md:inline text-slate-400">Pabrik & Manufaktur Produk Karet Industri • Sentra Bitung Tangerang Banten</span>
             <div class="flex items-center gap-4 mx-auto md:mx-0">
                 <span class="inline-flex items-center gap-1.5 text-emerald-400 font-medium">
                     <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                    Layanan Tender & RFQ B2B Aktif
+                    Layanan B2B & RFQ Terbuka
                 </span>
                 <span class="text-slate-500">|</span>
-                <a href="tel:+6289501823280" class="hover:text-red-400 transition-colors">Telp / WA: 0895-0182-3280</a>
+                <a href="tel:02129514148" class="hover:text-red-400 transition-colors">Telp: (021) 2951-4148 / 0895-0182-3280</a>
             </div>
         </div>
     </div>
@@ -51,22 +51,23 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 
-                <!-- BRAND LOGO -->
-                <a href="{{ route('home') }}" class="flex items-center gap-3 group">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-red-600 to-rose-700 flex items-center justify-center text-white shadow-lg shadow-red-600/30 ring-1 ring-red-400/40 group-hover:scale-105 transition-transform">
+                <!-- BRAND LOGO (LANDSCAPE MODEL) -->
+                <a href="{{ route('home') }}" class="flex items-center gap-3 group shrink-0 py-1 relative -left-3 sm:-left-6 lg:-left-10 xl:-left-14 transition-transform">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-red-600 to-rose-700 flex items-center justify-center text-white shadow-lg shadow-red-600/30 ring-1 ring-red-400/40 group-hover:scale-105 transition-transform shrink-0">
                         <!-- Gear / Industrial icon -->
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                         </svg>
                     </div>
-                    <div>
-                        <div class="text-lg font-black tracking-wider text-white flex items-center gap-1.5">
+                    <div class="flex items-center gap-2 sm:gap-2.5 whitespace-nowrap">
+                        <span class="text-lg sm:text-xl font-black tracking-wider text-white">
                             DUTA RUBBER
-                        </div>
-                        <div class="text-[10px] tracking-widest text-slate-400 font-semibold uppercase">
-                            PT Duta Mitra Luhur
-                        </div>
+                        </span>
+                        <span class="h-4 w-px bg-slate-700"></span>
+                        <span class="text-[11px] sm:text-xs font-bold text-slate-400 tracking-wider uppercase">
+                            PT DUTA MITRA LUHUR
+                        </span>
                     </div>
                 </a>
 
@@ -193,17 +194,18 @@
                 
                 <!-- Company Info -->
                 <div class="lg:col-span-2 space-y-4">
-                    <div class="flex items-center gap-3">
-                        <div class="w-9 h-9 rounded-xl bg-red-600 flex items-center justify-center text-white font-bold">
+                    <div class="flex items-center gap-3 whitespace-nowrap">
+                        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-red-600 to-rose-700 flex items-center justify-center text-white font-bold shrink-0 shadow-md shadow-red-600/30">
                             DR
                         </div>
-                        <div>
-                            <div class="text-white font-black text-lg tracking-wide">PT DUTA MITRA LUHUR</div>
-                            <div class="text-xs text-red-400 font-semibold uppercase tracking-wider">Duta Rubber Industrial Solutions</div>
+                        <div class="flex items-center gap-2.5">
+                            <span class="text-white font-black text-lg tracking-wide">DUTA RUBBER</span>
+                            <span class="h-4 w-px bg-slate-700"></span>
+                            <span class="text-xs text-slate-400 font-bold uppercase tracking-wider">PT DUTA MITRA LUHUR</span>
                         </div>
                     </div>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Perusahaan manufaktur dan fabrikasi produk karet industri terkemuka di Indonesia. Kami memasok rubber sheet, conveyor belt, gasket, marine fender, dan custom molded rubber dengan sertifikasi standar SNI, ISO 9001:2015, dan ASTM.
+                        Perusahaan manufaktur spesialis produk karet berkualitas di Indonesia. Kami memproduksi rubber soles (sol sepatu karet), industrial rubber seals, plug rubber, mudguard truk, cover stir mobil, dan custom molded rubber dengan standar mutu ramah lingkungan.
                     </p>
                     <div class="flex items-center gap-3 pt-2">
                         <span class="inline-flex items-center px-2.5 py-1 rounded text-xs font-bold bg-slate-800 text-slate-200 border border-slate-700">SNI TERVALIDASI</span>
@@ -228,31 +230,31 @@
                 <div>
                     <h3 class="text-white font-bold text-sm tracking-wider uppercase mb-4">Lini Produk</h3>
                     <ul class="space-y-2.5 text-sm">
-                        <li><a href="{{ route('catalog.index', ['kategori' => 'rubber-sheet-roll']) }}" class="hover:text-white transition-colors">Rubber Sheet & Roll</a></li>
-                        <li><a href="{{ route('catalog.index', ['kategori' => 'conveyor-belt-heavy-duty']) }}" class="hover:text-white transition-colors">Conveyor Belt EP</a></li>
-                        <li><a href="{{ route('catalog.index', ['kategori' => 'industrial-gasket-seal']) }}" class="hover:text-white transition-colors">Flange Gasket & Seal</a></li>
-                        <li><a href="{{ route('catalog.index', ['kategori' => 'custom-molded-seal']) }}" class="hover:text-white transition-colors">Custom Molded Rubber</a></li>
-                        <li><a href="{{ route('catalog.index', ['kategori' => 'marine-fender-bumper']) }}" class="hover:text-white transition-colors">Marine & Port Fender</a></li>
-                        <li><a href="{{ route('catalog.index', ['kategori' => 'anti-vibration-mounting']) }}" class="hover:text-white transition-colors">Bearing Pad Jembatan</a></li>
+                        <li><a href="{{ route('catalog.index', ['kategori' => 'rubber-soles']) }}" class="hover:text-white transition-colors">Rubber Soles (Sol Sepatu)</a></li>
+                        <li><a href="{{ route('catalog.index', ['kategori' => 'rubber-seals']) }}" class="hover:text-white transition-colors">Rubber Seals (Cincin & Seal)</a></li>
+                        <li><a href="{{ route('catalog.index', ['kategori' => 'plug-rubber']) }}" class="hover:text-white transition-colors">Plug Rubber & Stopper</a></li>
+                        <li><a href="{{ route('catalog.index', ['kategori' => 'mudguard-rubber']) }}" class="hover:text-white transition-colors">Mudguard Karet Truk</a></li>
+                        <li><a href="{{ route('catalog.index', ['kategori' => 'cover-stir-mobil']) }}" class="hover:text-white transition-colors">Cover Stir Mobil</a></li>
+                        <li><a href="{{ route('catalog.index', ['kategori' => 'custom-molded-rubber']) }}" class="hover:text-white transition-colors">Custom Molded Rubber</a></li>
                     </ul>
                 </div>
 
                 <!-- Contact & B2B Inquiry -->
                 <div class="space-y-3">
-                    <h3 class="text-white font-bold text-sm tracking-wider uppercase mb-4">Pusat B2B / RFQ</h3>
-                    <p class="text-xs text-slate-400">Tim technical sales kami siap membantu estimasi kebutuhan dan drafting tender pengadaan Anda.</p>
+                    <h3 class="text-white font-bold text-sm tracking-wider uppercase mb-4">Pusat Pabrik & B2B</h3>
+                    <p class="text-xs text-slate-400">Tim sales engineering kami siap membantu spesifikasi teknik, estimasi kebutuhan, dan tender pengadaan.</p>
                     <div class="space-y-2 text-xs">
                         <div class="flex items-start gap-2 text-slate-300">
                             <span class="text-red-400">📍</span>
-                            <span>Kawasan Industri & Pergudangan, Jl. Raya Industri No. 88, Jawa Barat - Indonesia</span>
+                            <span>Kawasan Industri & Pergudangan Sentra Bitung C7, Jl. Baitussaadah RT 01/03, Kadu, Curug, Tangerang, Banten</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-300">
                             <span class="text-red-400">📞</span>
-                            <span>(021) 8990-1234 / 0895-0182-3280</span>
+                            <span>Telp: (021) 2951-4148 &nbsp;|&nbsp; Fax: (021) 2951-4149</span>
                         </div>
                         <div class="flex items-center gap-2 text-slate-300">
                             <span class="text-red-400">✉️</span>
-                            <span>sales@dutamitraluhur.co.id</span>
+                            <span>duta_mitraluhur@yahoo.co.id</span>
                         </div>
                     </div>
                     <div class="pt-2">

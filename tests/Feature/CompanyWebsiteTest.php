@@ -10,6 +10,9 @@ use Tests\TestCase;
 
 class CompanyWebsiteTest extends TestCase
 {
+    use RefreshDatabase;
+
+    protected bool $seed = true;
     /** PBI 04 - Akses Company Profile Tanpa Login */
     public function test_guest_can_access_company_profile_and_home_without_login(): void
     {
@@ -43,14 +46,14 @@ class CompanyWebsiteTest extends TestCase
     /** PBI 06 - Pencarian dan Filter Produk */
     public function test_product_search_and_category_filter(): void
     {
-        $response = $this->get('/katalog?q=NBR');
+        $response = $this->get('/katalog?q=Retro');
         $response->assertStatus(200);
-        $response->assertSee('NBR Oil-Resistant Rubber Sheet');
+        $response->assertSee('Rubber Outsole Retro Sneakers');
 
-        $category = ProductCategory::where('slug', 'conveyor-belt-heavy-duty')->first();
+        $category = ProductCategory::where('slug', 'rubber-soles')->first();
         $catResponse = $this->get('/katalog?kategori=' . $category->slug);
         $catResponse->assertStatus(200);
-        $catResponse->assertSee('Heavy Duty Multi-Ply Fabric Conveyor Belt');
+        $catResponse->assertSee('Vulcanized Sneaker Rubber Outsole White');
     }
 
     /** PBI 07 - Call to Action */
@@ -79,11 +82,11 @@ class CompanyWebsiteTest extends TestCase
             'company' => 'PT Sumber Mineral Nusantara',
             'phone' => '081298765432',
             'email' => 'budi@sumbermineral.co.id',
-            'product_name' => 'NBR Oil-Resistant Rubber Sheet',
-            'size' => 'Tebal 3mm x 1200mm x 10m',
-            'quantity' => 5,
-            'unit' => 'Roll',
-            'variant' => 'Tebal 3mm x 1200mm x 10m',
+            'product_name' => 'Rubber Outsole Retro Sneakers (Converse Style)',
+            'size' => 'Size 42 (Brown Gum)',
+            'quantity' => 500,
+            'unit' => 'Pasang',
+            'variant' => 'Size 41 - 42 (Brown Gum)',
             'notes' => 'Mohon info ketersediaan stok ready dan estimasi pengiriman.',
         ];
 

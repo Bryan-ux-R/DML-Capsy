@@ -20,7 +20,7 @@
                 Layanan Tender & RFQ Resmi B2B
             </div>
             <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-                Formulir Tanya Ketersediaan & Penawaran
+                Formulir Tanya Ketersediaan &amp; Penawaran
             </h1>
             <p class="text-slate-400 text-sm mt-2 max-w-xl mx-auto">
                 Isi rincian kebutuhan material karet industri Anda. Sistem akan menerbitkan <strong class="text-white">Nomor Inquiry Resmi</strong> dan mengarahkan Anda ke WhatsApp tim sales PT Duta Mitra Luhur.

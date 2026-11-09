@@ -50,7 +50,7 @@
                             <td class="py-3 px-4 text-emerald-400 font-bold">Sangat Baik (A+)</td>
                             <td class="py-3 px-4 text-slate-400">Sedang</td>
                             <td class="py-3 px-4 text-slate-200">Baik</td>
-                            <td class="py-3 px-4">Gasket minyak, O-Ring mesin hidrolik, seal oli</td>
+                            <td class="py-3 px-4">Rubber seals mesin, cincin seal flensa hidrolik, gasket pipa</td>
                         </tr>
                         <tr class="hover:bg-slate-800/30">
                             <td class="py-3 px-4 font-bold text-sky-400">EPDM</td>
@@ -58,7 +58,7 @@
                             <td class="py-3 px-4 text-rose-400">Kurang Disarankan</td>
                             <td class="py-3 px-4 text-emerald-400 font-bold">Luar Biasa (A+)</td>
                             <td class="py-3 px-4 text-slate-200">Baik</td>
-                            <td class="py-3 px-4">Gasket outdoor, pipa uap panas, seal jendela kapal</td>
+                            <td class="py-3 px-4">Plug rubber industri, stopper kedap udara &amp; air, seal outdoor</td>
                         </tr>
                         <tr class="hover:bg-slate-800/30">
                             <td class="py-3 px-4 font-bold text-amber-400">Silicone (VMQ)</td>
@@ -66,15 +66,15 @@
                             <td class="py-3 px-4 text-slate-400">Sedang</td>
                             <td class="py-3 px-4 text-emerald-400 font-bold">Luar Biasa</td>
                             <td class="py-3 px-4 text-rose-400">Rendah</td>
-                            <td class="py-3 px-4">Food & pharma grade, oven gasket, seal sterilisasi</td>
+                            <td class="py-3 px-4">Seal kontak suhu tinggi, gasket oven, komponen karet higienis</td>
                         </tr>
                         <tr class="hover:bg-slate-800/30">
-                            <td class="py-3 px-4 font-bold text-violet-400">Neoprene (CR)</td>
+                            <td class="py-3 px-4 font-bold text-violet-400">SBR / Neoprene (CR)</td>
                             <td class="py-3 px-4">-35 s/d +110</td>
                             <td class="py-3 px-4 text-slate-200">Baik</td>
                             <td class="py-3 px-4 text-emerald-400 font-semibold">Sangat Baik</td>
                             <td class="py-3 px-4 text-slate-200">Sangat Baik</td>
-                            <td class="py-3 px-4">Bantalan jembatan (Bearing Pad), peredam getaran</td>
+                            <td class="py-3 px-4">Mudguard truk armada niaga, peredam getaran, cover stir</td>
                         </tr>
                         <tr class="hover:bg-slate-800/30">
                             <td class="py-3 px-4 font-bold text-emerald-400">Natural Rubber (NR)</td>
@@ -82,7 +82,7 @@
                             <td class="py-3 px-4 text-rose-400">Kurang Baik</td>
                             <td class="py-3 px-4 text-slate-400">Sedang</td>
                             <td class="py-3 px-4 text-emerald-400 font-bold">Tertinggi (A++)</td>
-                            <td class="py-3 px-4">Conveyor belt tambang, rubber fender dermaga</td>
+                            <td class="py-3 px-4">Sol sepatu karet (outsole sneakers), mudguard, cover stir mobil</td>
                         </tr>
                         <tr class="hover:bg-slate-800/30">
                             <td class="py-3 px-4 font-bold text-rose-400">Viton® (FKM)</td>

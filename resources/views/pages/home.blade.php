@@ -39,7 +39,7 @@
 
         <!-- Subtitle Paragraph -->
         <p class="max-w-3xl mx-auto text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed mb-10 font-normal">
-            Dari suplai retail harian hingga kontrak pengadaan industri berat (B2B). Kami memproduksi dan mendistribusikan <span class="text-white font-medium">rubber sheet</span>, <span class="text-white font-medium">gasket</span>, <span class="text-white font-medium">custom seal</span>, hingga <span class="text-white font-medium">heavy-duty conveyor belt</span> dengan sertifikasi uji mutu standar internasional.
+            Solusi manufaktur karet berkualitas tinggi dan ramah lingkungan. Kami memproduksi <span class="text-white font-medium">Rubber Soles (sol sepatu)</span>, <span class="text-white font-medium">Seals</span>, <span class="text-white font-medium">Plug Rubber</span>, <span class="text-white font-medium">Mudguard</span>, hingga <span class="text-white font-medium">Cover Stir Mobil</span> dengan jaminan mutu standar industri.
         </p>
 
         <!-- CTA Buttons & Response Indicator -->
@@ -101,13 +101,42 @@
 
             <div class="bg-slate-900/70 backdrop-blur-md border border-slate-800/90 rounded-2xl p-5 sm:p-6 transition-all hover:border-slate-700 hover:bg-slate-900/90 shadow-lg">
                 <div class="text-2xl sm:text-4xl font-black text-rose-400 tracking-tight mb-1">
-                    SNI & ISO
+                    SNI &amp; ISO
                 </div>
                 <div class="text-[11px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider">
                     GARANSI MUTU LAB
                 </div>
             </div>
 
+        </div>
+
+        <!-- PARTNERS / CLIENTS TRUST STRIP -->
+        <div class="mt-14 pt-8 border-t border-slate-800/60 max-w-5xl mx-auto">
+            <p class="text-[11px] sm:text-xs uppercase font-bold tracking-widest text-slate-400 mb-5 text-center">
+                DIPERCAYA OLEH PERUSAHAAN & MITRA MANUFAKTUR TERKEMUKA
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm">
+                <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-red-500/40 transition-colors">
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-white font-bold">PT KMK Global Sports</span>
+                </div>
+                <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-red-500/40 transition-colors">
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-slate-300 font-semibold">PT HTM Indonesia</span>
+                </div>
+                <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-red-500/40 transition-colors">
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-slate-300 font-semibold">PT Karya Sukses Bersama</span>
+                </div>
+                <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-red-500/40 transition-colors">
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-slate-300 font-semibold">PT Sinar Agung Gumilang</span>
+                </div>
+                <div class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-red-500/40 transition-colors">
+                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                    <span class="text-slate-300 font-semibold">CV Fikaru Rubber</span>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -123,16 +152,16 @@
             
             <div class="lg:col-span-6 space-y-6">
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-red-950/60 border border-red-500/30 text-xs font-semibold text-red-400 uppercase tracking-wider">
-                    Profil Perusahaan
+                    Profil Perusahaan & Manufaktur
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
-                    PT Duta Mitra Luhur: Mitra Andal Fabrikasi Karet Industri Nasional
+                    PT Duta Mitra Luhur: Solusi Rekayasa Karet Berkualitas & Ramah Lingkungan
                 </h2>
                 <p class="text-slate-300 text-base leading-relaxed">
-                    Didirikan dengan komitmen menghadirkan produk karet berkualitas rekayasa tinggi, <strong class="text-white">PT Duta Mitra Luhur (Duta Rubber)</strong> telah berkembang menjadi mitra utama lebih dari 500 perusahaan di sektor pertambangan, pabrik semen, industri kimia & pupuk, pembangkit listrik, galangan kapal, serta manufaktur alat berat.
+                    Berdiri sejak 03 Agustus 2010 di Kawasan Industri & Pergudangan Sentra Bitung, Curug, Tangerang - Banten, <strong class="text-white">PT Duta Mitra Luhur (Duta Rubber)</strong> memproduksi aneka produk karet teknik berstandar mutu tinggi. Kami memproduksi Rubber Soles (sol sepatu), Seals, Plug Rubber, Mudguard, dan Custom Molded Rubber dengan jaminan mutu zero defect dan pengiriman on-time 99%.
                 </p>
                 <p class="text-slate-400 text-sm leading-relaxed">
-                    Kami mengintegrasikan proses dari perumusan kompon karet mentah, pengujian elastisitas dan ketahanan kimia di laboratorium terakreditasi, hingga proses pencetakan presisi menggunakan mesin press vulkanisir otomatis dan pemotongan CNC digital.
+                    Didukung permesinan mandiri terpadu: Mesin Kneader, Open Mill, Cutting Kuk Dong, Lini Hydrolic Press Rubber, Mesin Triming, hingga sistem inspeksi Metal Detector digital otomatis.
                 </p>
 
                 <!-- Value Highlights -->
@@ -170,17 +199,17 @@
 
             <!-- Visual Showcase -->
             <div class="lg:col-span-6 relative">
-                <div class="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-900">
-                    <img src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80" alt="Fasilitas Pabrik PT Duta Mitra Luhur" class="w-full h-96 object-cover hover:scale-105 transition-transform duration-700">
+                <div class="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-900 group">
+                    <img src="/images/factory/machines/press-rubber-line.jpg" alt="Fasilitas Lini Mesin Press PT Duta Mitra Luhur" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80 text-white">
                         <div class="flex items-center justify-between">
                             <div>
-                                <div class="text-xs font-semibold text-red-400 uppercase">Fasilitas Fabrikasi & Quality Control</div>
-                                <div class="text-base font-bold">Kapasitas Produksi > 150 Ton Karet / Bulan</div>
+                                <div class="text-xs font-semibold text-red-400 uppercase">Fasilitas Fabrikasi & QC Sentra Bitung</div>
+                                <div class="text-base font-bold">Lini Mesin Hydraulic Press Karet Mandiri</div>
                             </div>
                             <span class="px-2.5 py-1 text-xs font-bold rounded bg-emerald-950 border border-emerald-500/50 text-emerald-300">
-                                ISO 9001:2015
+                                Berdiri 2010
                             </span>
                         </div>
                     </div>
