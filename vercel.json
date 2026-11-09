@@ -1,4 +1,3 @@
-
 {
   "version": 2,
   "framework": null,
@@ -11,6 +10,10 @@
     {
       "src": "/build/(.*)",
       "dest": "/public/build/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/public/images/$1"
     },
     {
       "src": "/favicon.ico",
@@ -28,6 +31,7 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
+    "APP_KEY": "base64:xPJlM+8ZKr5fGBFMoBU4Xzsk900ddofcfwirjwbiP2A=",
     "APP_CONFIG_CACHE": "/tmp/config.php",
     "APP_EVENTS_CACHE": "/tmp/events.php",
     "APP_PACKAGES_CACHE": "/tmp/packages.php",

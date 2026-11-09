@@ -23,10 +23,13 @@ foreach ($tmpDirs as $dir) {
 // Copy pre-seeded SQLite database to /tmp if using SQLite in serverless
 $sourceDb = __DIR__ . '/../database/database.sqlite';
 $targetDb = '/tmp/database.sqlite';
-if (!file_exists($targetDb) && file_exists($sourceDb)) {
-    @copy($sourceDb, $targetDb);
+if (!file_exists($targetDb)) {
+    if (file_exists($sourceDb)) {
+        @copy($sourceDb, $targetDb);
+    } else {
+        @touch($targetDb);
+    }
 }
 
 // Forward execution to Laravel's public/index.php
 require __DIR__ . '/../public/index.php';
-
